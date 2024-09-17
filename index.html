@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-signup</title>
+    <!-- Linking the stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <div id="signup-form-container" class="input-form">
+            <h1 onclick="loginDown();">Sign up</h1>
+            <form action="#" id="signup-form">
+                <div class="input-box">
+                    <input type="text" id="fullName" placeholder="Full name">
+                </div>
+                <div class="input-box">
+                    <input type="email" id="userEmail" placeholder="Email address">
+                </div>
+                <div class="input-box">
+                    <input type="password" id="userPass" placeholder="Password">
+                </div>
+                <button>Sign up</button>
+            </form>
+        </div>
+        <div id="login-form-container" class="input-form">
+            <h1 onclick="loginUp();">Log in</h1>
+            <form action="#" id="login-form">
+                <div class="input-box">
+                    <input type="text" id="userName" placeholder="Full name">
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="pass" placeholder="Password">
+                </div>
+                <button>Log in</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Linking the JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
